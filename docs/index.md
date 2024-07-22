@@ -30,7 +30,7 @@ cd {{ site.handson_root }}/hand_coded_heat
 
 Will my pipes freeze during a long, cold storm?
 
-![Wall and Pipe::](assets/wall_and_pipe.png){:width="500px"}
+![Wall and Pipe::](wall_and_pipe.png){:width="500px"}
 
 You keep the inside temperature of the house always at 70 degrees F. But, there is an
 overnight storm coming. The outside temperature is expected to drop to -40 degrees F for 15.5
@@ -91,8 +91,6 @@ where \\( r=\alpha\frac{\Delta t}{\Delta x^2} \\)
 * **Question**: Is there anything in this numerical treatment that feels like a _mesh_?
 * **Answer**: In the process of discretizing the PDE, we have defined a fixed spacing in x
   and a fixed spacing in t as shown in the figure here
-
-  [<img src="assets/heat_mesh.png" width="320">](heat_mesh.png){:align="middle"}
 
   This is essentially a uniform mesh. Later lessons
   here address more sophisticated discretizations in space and in time which
@@ -388,7 +386,7 @@ make plot PTOOL=gnuplot RUNAME=wall
 
 Depending on your situation, the above command may or may not produce a plot looking like below.
 
-![Pipe Solution ::](assets/pipe_solution.png){:width="400"}
+![Pipe Solution ::](pipe_solution.png){:width="400"}
 
 ### Will the pipes freeze?
 
@@ -468,7 +466,7 @@ a short lesson, we made a number of *simplifying assumptions*. If the picture
 below was a more accurate representation of the situation, the wall is
 composed more of water (in the pipe) than it is of wall
 
-![Wall and Pipe::](assets/wall_and_pipe2.png){:width="400px"}
+![Wall and Pipe::](wall_and_pipe2.png){:width="400px"}
 
 and our numerical model would fail.
 
@@ -532,7 +530,7 @@ activity name _Crank-Nicholson_ and upload evidence of your completed solution.
 
 ### Use The Application to Solve The Pipeline Problem
 
-![Pipeline Problem::](assets/pipeline.png){:width="500"}
+![Pipeline Problem::](pipeline.png){:width="500"}
 
 An pipeline carrying Ethenol-85 (E85) runs between a manure processing
 facility and a kerosene production factory. In the unlikely event that
