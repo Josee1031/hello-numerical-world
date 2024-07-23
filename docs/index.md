@@ -1,14 +1,7 @@
 ---
-layout: page-fullwidth
-order: 1
+layout: default
 title: "Hand Coded Heat"
-subheadline: "Hello World for Numerical Packages"
-teaser: "Why use numerical packages..."
 permalink: "index"
-use_math: true
-lesson: true
-header:
- image_fullwidth: "Differential-Equations-e1509686869201.png"
 ---
 
 ## At a Glance
