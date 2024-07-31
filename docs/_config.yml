@@ -1,8 +1,9 @@
 remote_theme: pages-themes/leap-day@v0.2.0
 markdown: kramdown
 plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-asciidoc
+  - jekyll-relative-links
   - jekyll-remote-theme
-
-# If using GitHub Pages, ensure this line is present
-github:
-  is_project_page: true
+  - jekyll-seo-tag # Ensure this line is present
